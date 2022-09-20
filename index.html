@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Code Snippet Cheatsheet</title>
+    <link rel = "stylesheet" href="./assets/style.css"/>
+</head>
+
+<body>
+      
+</body>
+    <header>
+        <h1>CSS Code Snippet Cheatsheet</h1>
+        <p>Ever have the trouble recalling the exact syntax for your favorite CSS Code? Give it a permanen home and add it to this page! Select any snippet below and it'll automatically select all the code for you to copy.</p>
+    </header>
+    <section class = "code-snippets">
+
+        <section class = "card" id = "flex-row">
+            <h2>Flexbox Row:</h2>
+            <p>Use these three properties to create a flexbox row layout.</p>
+
+            <section id = "snippet">
+                <p>.row {</p>
+                    <p id = "indent">display: flex;</p>
+                    <p id = "indent">flex-direction: row;</p>
+                    <p id = "indent">flex-wrap: wrap;</p>
+                <p>}</p>
+            </section>
+
+        </section>
+
+        <section class = "card" id = "flex-column">
+            <h2>Flexbox Column:</h2>
+            <p>Use this to create a flexbox column layout.</p>
+
+            <section id = "snippet">
+            <p>.column {</p>
+                <p id = "indent">display: flex;</p>
+                <p id = "indent">flex-wrap: column;</p>
+            <p>}</p>
+            </section>
+
+        </section>
+
+        <section class = "card" id = "css-grid">
+            <h2>CSS Grid Layout:</h2>
+            <p>Build a 12-column layout using CSS Grid.</p>
+
+            <section id = "snippet">
+                <p>.grid {</p>
+                    <p id = "indent">display: grid;</p>
+                    <p id = "indent">width: 100%;</p>
+                    <p id = "indent">grid-template-columns: repeat (12, 1fr)</p>
+                <p>}</p>
+            </section>
+
+        </section>
+
+        <section class = "card" id = "linear-gradient">
+            <h2>Linear Gradients:</h2>
+            <p>This will create a background linear gradient from top to bottom.</p>
+
+            <section id = "snippet">
+                <p>.linear-gradient-background {</p>
+                    <p id = "indent">background-image: linear-gradient (rgba (232, 102, 236, 0.3) 0%, rgba (232, 102, 236, 0.6) 0%);</p>
+                <p>}</p>
+            </section>
+
+        </section>
+
+        <section class = "card" id = "box-glow">
+            <h2>Box Transition Glow:</h2>
+            <p>Use transition and box shadows to glow on hover.</p>
+
+            <section id = "snippet">
+                <p>.code-card .card-header {</p>
+                    <p id = "indent">border-radius: 8px;</p>
+                    <p id = "indent">transition: all 0.5s ease-in-out;</p>
+                <p>}</p>
+    
+                <p>.code-card:hover, </p>
+                <p>.code-card:hover .card-header {</p>
+                    <p id = "indent">box-shadow: inset 0px 0px 8px</p>
+                    <p id = "indent">rgba (232, 102, 236, 1), 0px 0px 15px</p>
+                    <p id = "indent">rgba (232, 102, 236, 1);</p>
+                <p>}</p>
+            </section> 
+
+        </section>
+
+        <section class = "card" id = "card-overlay">
+            <h2>Overlay Card with Title:</h2>
+            <p>Use position properties and negative margins to raise elements higher than hteir natural starting point.</p>
+
+                <section id = "snippet">
+                    <p>.card-header {</p>
+                        <p id = "indent">position: relative;</p>
+                        <p id = "indent">margin-top: -20px;</p>
+                    <p>}</p>
+                </section>
+
+        </section>
+    </section>
+
+    <footer>
+        <h3>Made with ♥ and CSS!</h3>
+    </footer>
+
+</html>
