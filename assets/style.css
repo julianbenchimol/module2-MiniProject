@@ -1,0 +1,26 @@
+:root{
+    --headerColor: #00e200;
+    --cardHeaderColor: hsl(120, 94%, 13%);
+    --backgroundColor: #000;
+    --textColor: #fff;
+    --cardHeaderBorder: 1px solid #fff;
+    --headerBorderRadius: 5px;
+    --cardBorder: 1px dashed #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroundColor);
+}
+
+header{
+    color: var(--headerColor);
+}
+.code-snippets{
+    color: var(--textColor);
+}
+
+.card header {
+    color: var(--cardHeaderColor);
+}
